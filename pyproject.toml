@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "timer-telegram-bot-ls-7"
+version = "0.1.0"
+description = ""
+authors = ["me"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^13.2"
+python-dotenv = "^1.0.0"
+pytimeparse = "^1.1.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
